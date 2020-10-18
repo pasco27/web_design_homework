@@ -137,8 +137,9 @@ body {
   }
 
 img{
-    height: 20%;
+    height: 400px;
     float: left;
+    padding: 20px;
 }
 
 h1 {
@@ -148,3 +149,9 @@ h1 {
 h2 {
     font-size: 27px;
 }
+
+
+
+
+
+@media 
