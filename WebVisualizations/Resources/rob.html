@@ -10,58 +10,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<!-- 
-<div class="container">
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav> -->
-
-
-
 <!-- ------------------------------------------------- -->
     <!-- After class I was working with instructor.  We found this awesome code for the navbar: https://www.codeply.com/go/ji5ijk6yJ4-->
     <!-- <div class="container"> -->
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand pb-2" href="#">WeatherPy Landing Page</a>
+            <a class="navbar-brand pb-2" href="rob.html">WeatherPy Landing Page</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">Home Vix<span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://google.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Visualization Pages </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Google</a>
+                            <li><a class="dropdown-item" href="TvL.html">Temperature (F) vs. Latitude</a></li>
+                            <li><a class="dropdown-item" href="HvL.html">Humidity (%) vs. Latitude</a></li>
+                            <li><a class="dropdown-item" href="CvL.html">Cloudiness (%) vs. Latitude</a></li>
+                            <li><a class="dropdown-item" href="WvL.html">Wind Speed (mph) vs. Latitude</a></li>
+                            <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Google</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Submenu</a></li>
                                     <li><a class="dropdown-item" href="#">Submenu0</a></li>
@@ -78,23 +58,21 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="Comp.html">Comparison</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="Data.html">Source Data</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
-
-
 
   <!-- -----------------------------------------------       -->
         <!-- This is the code from the actual navbar bootstrap site. -->
@@ -136,16 +114,48 @@
 <!-- ----------------------------------------------- -->
 
 
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h1>Summary: Lat-titude with Attitude</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class= "col-sm-9">
+                <a href = "assets/images/Fig1.png"> 
+                    <img src="assets/images/Fig1.png" alt="stuff"/>
+                </a>
+    
+                <p> The premise of this project was to create a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, a Python library was utilized in conjuncttion with the OpenWeatherAPI to create a representative model of weather across world cities. This page was created as a fun visual summary of sorts.  The first requirement of the WeatherPy project was to create a series of scatter plots to showcase the following relationships:</p>
+                <ul>
+                    <li>Temperature (F) vs. Latitude</li>
+                    <li>Humidity (%) vs. Latitude</li>
+                    <li>Cloudiness (%) vs. Latitude</li>
+                    <li>Wind Speed (mph) vs. Latitude</li>
+                </ul>
+            </div>
+
+            <div class=  "col-sm-3">
+                <h3> Visualization </h3>
+                <p> some shit here </p>
 
 
 
-    <!-- Headers -->
-    <h1>Summary: Lattitude with Attitude</h1>
-
-    <a href = "...where ever I need to link the temp vs lattitude page" >
-        <img src="assets/images/Fig1.png" alt="stuff" />
-    </a>
-    <p> Create a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a</p>
-
+                <div class=  "col-sm-2">
+                    <a href = "#"> 
+                        <img2 src="assets/images/Fig1.png" alt="stuff"/>
+                    </a>
+                    <a href = "#"> 
+                        <img2 src="assets/images/Fig1.png" alt="stuff"/>
+                    </a>     
+                </div>
+            </div>    
+        </div>
+    </div>
+      
+  
+          </div> -->
+    <!-- </div>   -->
 
 </body>
