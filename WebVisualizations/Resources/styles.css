@@ -112,6 +112,11 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    font-size: 11px;
+    text-align: center;
+}
+
 p {
     font-size: 15px;
     color: gray;
@@ -123,5 +128,10 @@ p {
     color:
 } */
 
+#sidevisual {
+    width: 100px;
+    height: 100px;
+	margin: 5px;
+}
 
 /* @media  */
