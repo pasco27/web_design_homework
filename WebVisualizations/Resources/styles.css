@@ -107,16 +107,21 @@ h3 {
     font-size: 23px;
 }
 
+h4 {
+    font-size: 17px;
+    text-align: center;
+}
+
 p {
     font-size: 15px;
     color: gray;
     padding: 30px;
 }
   
-li {
-    border-style: ;
-    color: ;
-}
+/* li {
+    border-style: 
+    color:
+} */
 
 
 /* @media  */
