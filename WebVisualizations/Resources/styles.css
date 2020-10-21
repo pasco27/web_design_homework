@@ -131,7 +131,18 @@ p {
 #sidevisual {
     width: 100px;
     height: 100px;
-	margin: 5px;
+    margin: 2px;
+    float: center;
 }
 
-/* @media  */
+
+
+/* @media ??? */ 
+@media (max-width: 767px) {
+    .navbar-default > li > a {
+      color: #3ba4be;
+    }
+
+}
+
+/* navbar navbar-expand-md navbar-light bg-light */
